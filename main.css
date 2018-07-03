@@ -1,0 +1,104 @@
+body    {
+    font: 16px/28px arial, sans-serief;
+    background-color: #eaeaea;
+    color:  #333;
+    background-image: url(img/body.jpg);
+}
+.container  {
+        width: 800px;
+        margin: auto;
+        background-color: #fff;
+}
+.header {
+        padding: 20px;
+        padding-bottom: 2px;
+}
+.header .title  {
+    font-size: 30px;
+}
+.header ul li   {
+    display: inline-block;
+    margin-right: 10px;
+    position: -15px 0;
+}
+.header a   {
+    text-decoration: none;
+    color: salmon;
+    padding: 4px;
+}
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.baner  {
+    height: 280px;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-position: 50px -200px;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+}
+.content    {
+        padding: 20px;
+}
+.content h2 {
+    font-size: 25px;
+    margin-top: -7px;
+}
+.content .launch {
+    margin-top: -25px;
+    font-size: 11px;
+}
+.coming .sorry {
+    margin: 10px;
+}
+.content a  {
+    text-decoration: none;
+    color: salmon;
+}
+.content a:hover    {
+    background-color: lightskyblue;
+    padding: 4px;
+}
+.coming {
+    text-align: center;
+}
+.coming h3  {
+    font-size: 20px;
+    color: salmon;
+}
+.footer {
+    background-color: #333;
+    padding: 20px;
+}
+.footer .cop    {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 14px;
+}
+.coming a   {
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+.coming a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* Css For Search button */
+
+.search {
+    float: right;
+    margin-top: -100px;
+    position: relative;
+    right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+/*   {
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+}
+*/
